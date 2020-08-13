@@ -12,7 +12,7 @@ namespace conCI
             return new NewSQLAccessData();
         }
 
-        public static OracleAccessData CreasteOracleDataAccessClass()
+        public static IAccessData CreasteOracleDataAccessClass()
         {
             return new OracleAccessData();
         }
